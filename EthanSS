@@ -1,0 +1,288 @@
+--Ethan SS Script GUI NO LINKVERTISE
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local HighTopLabel = Instance.new("TextLabel")
+local Karmapanda = Instance.new("TextButton")
+local AllStarTowerDefense = Instance.new("TextLabel")
+local Riverhub = Instance.new("TextButton")
+local OutLines = Instance.new("TextLabel")
+local OutLines_2 = Instance.new("TextLabel")
+local OutLines_3 = Instance.new("TextLabel")
+local OutLines_4 = Instance.new("TextLabel")
+local OutLines_5 = Instance.new("TextLabel")
+local OutLines_6 = Instance.new("TextLabel")
+local AllStarTowerDefense_2 = Instance.new("TextLabel")
+local OutLines_7 = Instance.new("TextLabel")
+local OutLines_8 = Instance.new("TextLabel")
+local OutLines_9 = Instance.new("TextLabel")
+local OutLines_10 = Instance.new("TextLabel")
+local OutLines_11 = Instance.new("TextLabel")
+local BetaGUI = Instance.new("TextButton")
+
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+Main.Position = UDim2.new(0.226804107, 0, 0.208459228, 0)
+Main.Size = UDim2.new(0, 706, 0, 367)
+Main.Active = true
+Main.Draggable = true
+
+HighTopLabel.Name = "HighTopLabel"
+HighTopLabel.Parent = Main
+HighTopLabel.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
+HighTopLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HighTopLabel.Size = UDim2.new(0, 706, 0, 82)
+HighTopLabel.Font = Enum.Font.GothamBold
+HighTopLabel.Text = "EthanSS | Client Scripts "
+HighTopLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+HighTopLabel.TextScaled = true
+HighTopLabel.TextSize = 14.000
+HighTopLabel.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+HighTopLabel.TextStrokeTransparency = 0.000
+HighTopLabel.TextWrapped = true
+
+Karmapanda.Name = "Karmapanda"
+Karmapanda.Parent = Main
+Karmapanda.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
+Karmapanda.Position = UDim2.new(0.016997166, 0, 0.430517703, 0)
+Karmapanda.Size = UDim2.new(0, 200, 0, 50)
+Karmapanda.Font = Enum.Font.GothamBold
+Karmapanda.Text = "KarmaPanda"
+Karmapanda.TextColor3 = Color3.fromRGB(0, 0, 0)
+Karmapanda.TextScaled = true
+Karmapanda.TextSize = 14.000
+Karmapanda.TextWrapped = true
+Karmapanda.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/KarmaPanda/Roblox/main/astd-aio.lua'))()
+end)
+
+AllStarTowerDefense.Name = "All Star Tower Defense"
+AllStarTowerDefense.Parent = Main
+AllStarTowerDefense.BackgroundColor3 = Color3.fromRGB(121, 69, 116)
+AllStarTowerDefense.Position = UDim2.new(0.0169971678, 0, 0.256130785, 0)
+AllStarTowerDefense.Size = UDim2.new(0, 200, 0, 50)
+AllStarTowerDefense.Font = Enum.Font.GothamBlack
+AllStarTowerDefense.LineHeight = 0.720
+AllStarTowerDefense.Text = "All Star Tower Defense"
+AllStarTowerDefense.TextColor3 = Color3.fromRGB(0, 0, 0)
+AllStarTowerDefense.TextScaled = true
+AllStarTowerDefense.TextSize = 14.000
+AllStarTowerDefense.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+AllStarTowerDefense.TextStrokeTransparency = 0.000
+AllStarTowerDefense.TextWrapped = true
+
+Riverhub.Name = "Riverhub"
+Riverhub.Parent = Main
+Riverhub.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
+Riverhub.Position = UDim2.new(0.016997166, 0, 0.610354185, 0)
+Riverhub.Size = UDim2.new(0, 200, 0, 50)
+Riverhub.Font = Enum.Font.GothamBold
+Riverhub.Text = "Riverhub"
+Riverhub.TextColor3 = Color3.fromRGB(0, 0, 0)
+Riverhub.TextScaled = true
+Riverhub.TextSize = 14.000
+Riverhub.TextWrapped = true
+Riverhub.MouseButton1Down:connect(function()
+	pcall(function()
+		loadstring(game:HttpGet("http://riverhub.xyz/" .. tostring(game.PlaceId) .. ".lua"))()
+	end)
+end)
+
+OutLines.Name = "OutLines"
+OutLines.Parent = Main
+OutLines.BackgroundColor3 = Color3.fromRGB(121, 69, 116)
+OutLines.BorderSizePixel = 0
+OutLines.Position = UDim2.new(0.300283283, 0, 0.256130785, 0)
+OutLines.Size = UDim2.new(0, 12, 0, 273)
+OutLines.Font = Enum.Font.GothamBlack
+OutLines.Text = ""
+OutLines.TextColor3 = Color3.fromRGB(0, 0, 0)
+OutLines.TextScaled = true
+OutLines.TextSize = 14.000
+OutLines.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+OutLines.TextStrokeTransparency = 0.000
+OutLines.TextWrapped = true
+
+OutLines_2.Name = "OutLines"
+OutLines_2.Parent = Main
+OutLines_2.BackgroundColor3 = Color3.fromRGB(121, 69, 116)
+OutLines_2.BorderSizePixel = 0
+OutLines_2.Position = UDim2.new(0, 0, 0.256130785, 0)
+OutLines_2.Size = UDim2.new(0, 12, 0, 273)
+OutLines_2.Font = Enum.Font.GothamBlack
+OutLines_2.Text = ""
+OutLines_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+OutLines_2.TextScaled = true
+OutLines_2.TextSize = 14.000
+OutLines_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+OutLines_2.TextStrokeTransparency = 0.000
+OutLines_2.TextWrapped = true
+
+OutLines_3.Name = "OutLines"
+OutLines_3.Parent = Main
+OutLines_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OutLines_3.BorderSizePixel = 0
+OutLines_3.Position = UDim2.new(0.641643047, 0, 0.267029971, 0)
+OutLines_3.Size = UDim2.new(0, 7, 0, 269)
+OutLines_3.Font = Enum.Font.GothamBlack
+OutLines_3.Text = ""
+OutLines_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+OutLines_3.TextScaled = true
+OutLines_3.TextSize = 14.000
+OutLines_3.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+OutLines_3.TextStrokeTransparency = 0.000
+OutLines_3.TextWrapped = true
+
+OutLines_4.Name = "OutLines"
+OutLines_4.Parent = Main
+OutLines_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OutLines_4.BorderSizePixel = 0
+OutLines_4.Position = UDim2.new(0, 0, 0.256130785, 0)
+OutLines_4.Size = UDim2.new(0, 224, 0, 8)
+OutLines_4.Font = Enum.Font.GothamBlack
+OutLines_4.Text = ""
+OutLines_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+OutLines_4.TextScaled = true
+OutLines_4.TextSize = 14.000
+OutLines_4.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+OutLines_4.TextStrokeTransparency = 0.000
+OutLines_4.TextWrapped = true
+
+OutLines_5.Name = "OutLines"
+OutLines_5.Parent = Main
+OutLines_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OutLines_5.BorderSizePixel = 0
+OutLines_5.Position = UDim2.new(0, 0, 0.277929157, 0)
+OutLines_5.Size = UDim2.new(0, 6, 0, 265)
+OutLines_5.Font = Enum.Font.GothamBlack
+OutLines_5.Text = ""
+OutLines_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+OutLines_5.TextScaled = true
+OutLines_5.TextSize = 14.000
+OutLines_5.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+OutLines_5.TextStrokeTransparency = 0.000
+OutLines_5.TextWrapped = true
+
+OutLines_6.Name = "OutLines"
+OutLines_6.Parent = Main
+OutLines_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OutLines_6.BorderSizePixel = 0
+OutLines_6.Position = UDim2.new(0, 0, 0.980926454, 0)
+OutLines_6.Size = UDim2.new(0, 231, 0, 7)
+OutLines_6.Font = Enum.Font.GothamBlack
+OutLines_6.Text = ""
+OutLines_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+OutLines_6.TextScaled = true
+OutLines_6.TextSize = 14.000
+OutLines_6.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+OutLines_6.TextStrokeTransparency = 0.000
+
+AnimePunchingsim.TextWrapped = true.Name = "AnimePunchingsim"
+AnimePunchingsim.Parent = Main
+AnimePunchingsim.BackgroundColor3 = Color3.fromRGB(121, 69, 116)
+AnimePunchingsim.Position = UDim2.new(0.358356923, 0, 0.277929157, 0)
+AnimePunchingsim.Size = UDim2.new(0, 200, 0, 50)
+AnimePunchingsim.Font = Enum.Font.GothamBlack
+AnimePunchingsim.LineHeight = 0.960
+AnimePunchingsim.Text = "Anime Punching Sim"
+AnimePunchingsim.TextColor3 = Color3.fromRGB(0, 0, 0)
+AnimePunchingsim.TextScaled = true
+AnimePunchingsim.TextSize = 14.000
+AnimePunchingsim.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+AnimePunchingsim.TextStrokeTransparency = 0.000
+AnimePunchingsim.TextWrapped = true
+
+OutLines_7.Name = "OutLines"
+OutLines_7.Parent = Main
+OutLines_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OutLines_7.BorderSizePixel = 0
+OutLines_7.Position = UDim2.new(0.349858344, 0, 0.277929157, 0)
+OutLines_7.Size = UDim2.new(0, 6, 0, 265)
+OutLines_7.Font = Enum.Font.GothamBlack
+OutLines_7.Text = ""
+OutLines_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+OutLines_7.TextScaled = true
+OutLines_7.TextSize = 14.000
+OutLines_7.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+OutLines_7.TextStrokeTransparency = 0.000
+OutLines_7.TextWrapped = true
+
+OutLines_8.Name = "OutLines"
+OutLines_8.Parent = Main
+OutLines_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OutLines_8.BorderSizePixel = 0
+OutLines_8.Position = UDim2.new(0, 0, 0.256130785, 0)
+OutLines_8.Size = UDim2.new(0, 224, 0, 8)
+OutLines_8.Font = Enum.Font.GothamBlack
+OutLines_8.Text = ""
+OutLines_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+OutLines_8.TextScaled = true
+OutLines_8.TextSize = 14.000
+OutLines_8.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+OutLines_8.TextStrokeTransparency = 0.000
+OutLines_8.TextWrapped = true
+
+OutLines_9.Name = "OutLines"
+OutLines_9.Parent = Main
+OutLines_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OutLines_9.BorderSizePixel = 0
+OutLines_9.Position = UDim2.new(0.317280442, 0, 0.256130785, 0)
+OutLines_9.Size = UDim2.new(0, 7, 0, 273)
+OutLines_9.Font = Enum.Font.GothamBlack
+OutLines_9.Text = ""
+OutLines_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+OutLines_9.TextScaled = true
+OutLines_9.TextSize = 14.000
+OutLines_9.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+OutLines_9.TextStrokeTransparency = 0.000
+OutLines_9.TextWrapped = true
+
+OutLines_10.Name = "OutLines"
+OutLines_10.Parent = Main
+OutLines_10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OutLines_10.BorderSizePixel = 0
+OutLines_10.Position = UDim2.new(0.349858344, 0, 0.980926454, 0)
+OutLines_10.Size = UDim2.new(0, 206, 0, 7)
+OutLines_10.Font = Enum.Font.GothamBlack
+OutLines_10.Text = ""
+OutLines_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+OutLines_10.TextScaled = true
+OutLines_10.TextSize = 14.000
+OutLines_10.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+OutLines_10.TextStrokeTransparency = 0.000
+OutLines_10.TextWrapped = true
+
+OutLines_11.Name = "OutLines"
+OutLines_11.Parent = Main
+OutLines_11.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OutLines_11.BorderSizePixel = 0
+OutLines_11.Position = UDim2.new(0.349858344, 0, 0.256130785, 0)
+OutLines_11.Size = UDim2.new(0, 213, 0, 8)
+OutLines_11.Font = Enum.Font.GothamBlack
+OutLines_11.Text = ""
+OutLines_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+OutLines_11.TextScaled = true
+OutLines_11.TextSize = 14.000
+OutLines_11.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+OutLines_11.TextStrokeTransparency = 0.000
+OutLines_11.TextWrapped = true
+
+BetaGUI.Name = "Beta GUI"
+BetaGUI.Parent = Main
+BetaGUI.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
+BetaGUI.Position = UDim2.new(0.358356923, 0, 0.430517703, 0)
+BetaGUI.Size = UDim2.new(0, 200, 0, 50)
+BetaGUI.Font = Enum.Font.GothamBold
+BetaGUI.Text = "BETA GUI"
+BetaGUI.TextColor3 = Color3.fromRGB(0, 0, 0)
+BetaGUI.TextScaled = true
+BetaGUI.TextSize = 14.000
+BetaGUI.TextWrapped = true
+BetaGUI.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/aU4ZEikj"))()
+end)
